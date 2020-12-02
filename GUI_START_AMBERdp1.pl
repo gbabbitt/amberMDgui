@@ -68,7 +68,7 @@ my $MDeqScale = $mw->Scale(-label=>"Length of MD equilibration run (ns) :",
 			-length=>205
 			);
 
-my $MDprodScale = $mw->Scale(-label=>"Length of each MD sample run (ps) :",
+my $MDprodScale = $mw->Scale(-label=>"Length of each MD sample run (ns) :",
 			-orient=>'h',
 			-digit=>3,
 			-from=>0,
