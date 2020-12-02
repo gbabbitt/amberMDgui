@@ -2,11 +2,11 @@ AMBER MD GUI starts with the command line call
 
 python AMBERMD.py
 
-a simple graphical user interface for running ensembles of GPU accelerated AMBER molecular dynamics simulations(i.e. pmemd.cuda).  If you do not have a license for GPU accelerated AMBER, the GUI has an option to run on the freely available OpenMM GPU accelerated molecular dynamics engine instead.
+A simple graphical user interface for running ensembles of GPU accelerated AMBER molecular dynamics simulations, and viewing them in UCSF Chimera. If users do not have a license for GPU accelerated AMBER (i.e. pmemd.cuda), users can select the OpenMM molecular dynamics engine as an option for GPU accelerated molecular dynamics.
 
 ![image](/AMBERMDgui.png)
 
-a GUI based script PATHS.pl will prompt paths to working directories for UCSF Chimera, Amber forcefields, and Amber Home directory and write a .ctl file. Then the main menu will pop up. Requires Amber 16/18 license or OpenMM and some dependencies in python and perl (see user doc with download)
+a GUI based script PATHS.pl will prompt paths to working directories for UCSF Chimera, Amber forcefields, and Amber Home directory and write a .ctl file. Then the main menu will pop up. Requires Amber 16/18 license (or AmberTools with OpenMM) and some dependencies in python and perl 
 
 ![image](/STARTMDgui.png)
 
