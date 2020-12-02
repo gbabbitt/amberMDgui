@@ -6,7 +6,8 @@ a simple graphical user interface for running ensembles of GPU accelerated AMBER
 
 ![image](/AMBERMDgui.png)
 
-a GUI based script PATHS.pl will prompt paths to working directories for UCSF Chimera, Amber forcefields, and Amber Home directory and write a .ctl file. Then the main menu will pop up. Requires Amber 16/18 license and some dependencies in R, python and perl (see user doc with download)
+a GUI based script PATHS.pl will prompt paths to working directories for UCSF Chimera, Amber forcefields, and Amber Home directory and write a .ctl file. Then the main menu will pop up. Requires Amber 16/18 license or OpenMM and some dependencies in python and perl (see user doc with download)
+
 ![image](/STARTMDgui.png)
 
 To install the software needed for this GUI, download the Amber and AmberTools tarball files and run
