@@ -1,0 +1,50 @@
+<MyLayout>
+    GridLayout:
+        cols:1
+        size: root.width-200, root.height-200
+        pos: 100, 100
+        Label:
+            text: 'AMBERMD - a simple GUI for AMBER molecular dynamics'
+            font_size: 26
+            size_hint: 0.5, 0.2
+            bold: True
+            color: 0.1, 0.8, 0.1, 1
+        Label:
+            text: 'GPL3 license - GA Babbitt Lab at Rochester Institute of Technology'
+            font_size: 16
+            size_hint: 0.3, 0.1    
+        GridLayout:
+            cols:1
+            Image:
+                source: 'amber.png'
+            GridLayout:
+                cols:1 
+                Button:
+                    id: btn1
+                    text: "single protein or protein complex"
+                    on_press: btn1.background_color=(0.9, 0.1, 0.9, 1)
+                    on_press: root.btn1()
+                    bold: True
+                    font_size: 20
+                    size_hint: 0.5, 0.3
+                    color: 1, 0.1, 1, 1
+                Button:
+                    id: btn2
+                    text: "protein + DNA complex"   
+                    on_press: btn2.background_color=(0.9, 0.9, 0.1, 1)
+                    on_press: root.btn2()
+                    bold: True
+                    font_size: 20
+                    size_hint: 0.5, 0.3
+                    color: 0.9, 0.9, 0.1, 1
+                Button:
+                    id: btn3
+                    text: "protein + ligand complex (small molecule)"   
+                    on_press: btn3.background_color=(0.1, 0.1, 0.9, 1)
+                    on_press: root.btn3()
+                    bold: True
+                    font_size: 20
+                    size_hint: 0.5, 0.3
+                    color: 0.1, 0.95, 0.95, 1
+                    
+                

@@ -1,0 +1,3 @@
+amber
+wat_1yet_boundREDUCED.prmtop
+eq_1yet_boundREDUCED.nc

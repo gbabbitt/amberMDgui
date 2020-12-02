@@ -1,0 +1,3 @@
+amber
+wat_1cdw_boundREDUCED.prmtop
+eq_1cdw_boundREDUCED.nc
