@@ -61,10 +61,10 @@ my $MDeqScale = $mw->Scale(-label=>"Length of MD equilibration run (ns) :",
 			-orient=>'h',
 			-digit=>3,
 			-from=>0,
-			-to=>20,
+			-to=>500,
 			-variable=>\$cutoffValueEq,
-			-tickinterval=>5,
-			-resolution=>1,
+			-tickinterval=>100,
+			-resolution=>10,
 			-length=>205
 			);
 
@@ -72,10 +72,10 @@ my $MDprodScale = $mw->Scale(-label=>"Length of each MD sample run (ns) :",
 			-orient=>'h',
 			-digit=>3,
 			-from=>0,
-			-to=>20,
+			-to=>500,
 			-variable=>\$cutoffValueProd,
-			-tickinterval=>5,
-			-resolution=>1,
+			-tickinterval=>100,
+			-resolution=>10,
 			-length=>205
 			);
 
