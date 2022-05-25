@@ -25,7 +25,7 @@ print "path to Chimera .exe\t"."$chimera_path\n";
 my $fileIDq = '';
 my $fileIDr = '';
 my $forceID = '';
-my $runsID = '';
+my $runsID = 1;
 my $implicit=0;
 my $explicit=0;
 my $solvType = '';
